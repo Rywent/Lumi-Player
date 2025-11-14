@@ -19,8 +19,14 @@ Without a selected folder and no track playing
 ### 3) Example song 2  
 ![Example song 2](images/screenshot3.jpg)
 
+## Features
 
-
+- The app does not differentiate between light and dark modes; its transparent design allows it to seamlessly blend with any theme.
+- Beautiful and clean design for each track display.
+- Compact window size for convenient and unobtrusive use.
+- Optimized for low CPU and memory usage, ensuring smooth performance without lag
+- Supports easy local folder playback without the need for complicated setup.
+- Minimalistic interface focused on ease of use without unnecessary features.
 
 ## Deployment
 
