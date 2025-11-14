@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LumiPlayer.exe" version="1.0.0.0" publicKeyToken="5d897c94a1e0351a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LumiPlayer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LumiPlayer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LumiPlayer.exe" size="51136">
+      <assemblyIdentity name="LumiPlayer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+QIDfl1CNoY/WD0zBF8EavjldjNusCz8gh8guZIod2A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Xaml.Behaviors.dll" size="146464">
+      <assemblyIdentity name="Microsoft.Xaml.Behaviors" version="1.1.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Luaihs0lXRgLrEpc25fF8n3ivms76zRR+Nd7yU+llTg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TagLibSharp.dll" size="500224">
+      <assemblyIdentity name="TagLibSharp" version="2.3.0.0" publicKeyToken="DB62EBA44689B5B0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sYM6Qasekz97AG5dsVMAtyI7/MwsO2aJ1JqRcd0n3h0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LumiPlayer.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RywentPC\rywent" issuerKeyHash="c382fd013d62c109ac9409bdd01ac57a0384d4c7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yvStJOReEgDXF4END48nYQRwrDHFikw6/b9CGYHLDk0=</DigestValue></Reference></SignedInfo><SignatureValue>y0ccBEg0oJMfDFHf3U8VejffQr29B1Rg05E6B1LLpEz++XL8Zat5D4hrV0eJL+b7xm6YsMbH3sEo8jYdZXk/HbnukKifs7I53i3yzeQFwWiBW907DKZg0CCO8Aw3qkE3dLsYqkWljIy71xcCsPAgDqJ0AHtqEtDnF86HA9Su4H0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5w0TLSot6hT+4enNfiCQA6sU1P/20hvoy9Ie5i+Ry2xuhHfHeXiALCe1x4FmgCthr5h+/7XrgbM6up6o9Qy3vTFZ81eIJ+KCSJOgrcJOALRqmWaWh1H3wKnimIrRwRuyHTjZGU2Wv8T4QCiVrI+ABdCtUeqsrOf95O9R0lbGmWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4d0ecb811942bffd3a4c8ac531ac700461278f0f0d8117d700125ee424adf4ca" Description="" Url=""><as:assemblyIdentity name="LumiPlayer.exe" version="1.0.0.0" publicKeyToken="5d897c94a1e0351a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RywentPC\rywent</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TAdhT+6K/fWE/6y0VPnKIgeYqAO/xK1dnm1fomdywqM=</DigestValue></Reference></SignedInfo><SignatureValue>tDgskB6dyBJmEshzZaUcFtA7j+PUeMEE1KoAkWnz5Bniw9Ip/LX/7UaNPitzW0UFVnLuaP1tPvQ7TrjATyUDwrfXjlfUXWIh1JMXBOOSt/Y992/drJ5mr/36MOpaot0KViMOGpDKuYIYIxfDr01m6z9bwjd+0P8bltXUMt1fdFM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5w0TLSot6hT+4enNfiCQA6sU1P/20hvoy9Ie5i+Ry2xuhHfHeXiALCe1x4FmgCthr5h+/7XrgbM6up6o9Qy3vTFZ81eIJ+KCSJOgrcJOALRqmWaWh1H3wKnimIrRwRuyHTjZGU2Wv8T4QCiVrI+ABdCtUeqsrOf95O9R0lbGmWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQVaKCqgXVQLNM09jkrqWEijANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AUgB5AHcAZQBuAHQAUABDAFwAcgB5AHcAZQBuAHQwHhcNMjUxMTE0MDQzMDU2WhcNMjYxMTE0MTAzMDU2WjApMScwJQYDVQQDHh4AUgB5AHcAZQBuAHQAUABDAFwAcgB5AHcAZQBuAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOcNEy0qLeoU/uHpzX4gkAOrFNT/9tIb6MvSHuYvkctsboR3x3l4gCwntceBZoArYa+Yfv+164GzOrqeqPUMt70xWfNXiCfigkiToK3CTgC0aplmlodR98Cp4piK0cEbsh042RlNlr/E+EAolayPgAXQrVHqrKzn/eTvUdJWxpllAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAPJTYsSyStT0Ziq1qSm6IGorOGsHDS5U90Qm1iPuPJ7sZTEomzb8WbbRM+2MoMB4V4X6sDuf224X7M8XnhjvZWeE1ZpZZP+Axe0sf0sQn0cwwlAWDYslK2AY7aIv/ROtj6gK/Y8W3u0qmkxJaC5GZ0hmUav7Rs7IIvs0CjhzE564=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
