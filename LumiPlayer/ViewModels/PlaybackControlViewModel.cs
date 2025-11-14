@@ -236,7 +236,7 @@ namespace LumiPlayer.ViewModels
             {
                 _currentTrackId--;
                 SetTrack(_currentTrackId);
-                PauseButton = SetImageFromPath(@"/Resources/img/circle-play.png");
+                PauseButton = SetImageFromPath(@"/Resources/img/circle-pause.png");
             }
         }
 
