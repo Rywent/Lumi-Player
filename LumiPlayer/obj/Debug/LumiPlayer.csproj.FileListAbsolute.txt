@@ -25,3 +25,7 @@ D:\Programming\csharpProjects\WPFProjects\LumiPlayer\LumiPlayer\bin\Debug\TagLib
 D:\Programming\csharpProjects\WPFProjects\LumiPlayer\LumiPlayer\bin\Debug\TagLibSharp.pdb
 D:\Programming\csharpProjects\WPFProjects\LumiPlayer\LumiPlayer\bin\Debug\TagLibSharp.xml
 D:\Programming\csharpProjects\WPFProjects\LumiPlayer\LumiPlayer\obj\Debug\LumiPlayer.exe.config
+D:\Programming\csharpProjects\WPFProjects\LumiPlayer\LumiPlayer\bin\Debug\LumiPlayer.exe.manifest
+D:\Programming\csharpProjects\WPFProjects\LumiPlayer\LumiPlayer\bin\Debug\LumiPlayer.application
+D:\Programming\csharpProjects\WPFProjects\LumiPlayer\LumiPlayer\obj\Debug\LumiPlayer.exe.manifest
+D:\Programming\csharpProjects\WPFProjects\LumiPlayer\LumiPlayer\obj\Debug\LumiPlayer.application
